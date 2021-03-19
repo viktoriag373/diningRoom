@@ -1,0 +1,17 @@
+.header {
+
+	&-top {
+		background-color: #00aa4b;
+
+	}
+
+	&-center {
+		background-color: transparent;
+	}
+
+	&-bottom {
+		background-color: #fff;
+		box-shadow: 0px 15px 30px -7px rgba(0, 0, 0, 0.2);
+	}
+
+}

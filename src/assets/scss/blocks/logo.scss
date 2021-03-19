@@ -1,0 +1,13 @@
+.logo {
+	display: flex;
+	align-items: center;
+	&__img {
+		width: 4rem;
+	}
+
+	&__title {
+		font-size: 3.3rem;
+		margin-left: 0.8rem;
+	}
+
+}

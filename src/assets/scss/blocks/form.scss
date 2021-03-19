@@ -1,0 +1,169 @@
+.modal-contact-us {
+	width: 75.5rem;
+	position: absolute;
+	top: 5rem;
+	right: 17rem;
+	background: #fff;
+	padding: 5rem 6rem 6rem 5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+	z-index: 100;
+	display: none;
+
+	&__close {
+		position: absolute;
+		right: 1rem;
+		top: 1rem;
+		width: 32px;
+		height: 32px;
+		opacity: 0.3;
+		&:hover {
+			opacity: 1;
+			cursor: pointer;
+			transition: 0.5s;
+		}
+		&:before, &:after {
+			position: absolute;
+			left: 15px;
+			content: ' ';
+			height: 30px;
+			width: 2px;
+			background-color: #333;
+		}
+		&:before {
+			transform: rotate(35deg);
+		}
+		&:after {
+			transform: rotate(-35deg);
+		}
+	}
+		
+
+	&__communication-methods {
+		flex: 0 1 44%;
+	}
+
+	&__number {
+		
+	}
+
+	&__tel {
+		font-size: 2.1rem;
+		color: #00aa4b;
+		font-weight: 600;
+	}
+
+	&__additional-info {
+		color: #787878;
+		font-size: 1.6rem;
+		margin-bottom: 2rem;
+	}
+
+	&__methods {
+
+	}
+
+	&__choice {
+		margin-bottom: 2rem;
+		font-size: 1.5rem;
+	}
+
+	&__list {
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 0.7rem;
+	}
+
+	&__social-icon {
+		width: 2rem;
+	}
+
+	&__icon-tel {
+		transform: rotate(15deg);
+	}
+
+	&__link {
+		color: #000;
+		margin-left: 1rem;
+		font-size: 1.8rem;
+		position: relative;
+		&::after {
+			content: "";
+			display: block;
+			position: absolute;
+			width: 0%;
+			height: 0.1rem;
+			transition: all 0.5s ease 0s;
+			background-color: #bababa;
+		}
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:hover::after {
+			width: 100%;
+		}
+	}
+
+	&__form {
+		flex: 0 1 42%;
+	}
+
+	&__callback {
+		font-size: 2.1rem;
+		line-height: 3.4rem;
+		font-weight: 500;
+	}
+
+	&__label {
+		display: block;
+		font-size: 1.5rem;
+	}
+
+	&__input {
+		margin-left: 0.1rem;
+		border: 0;
+		border-bottom: 1px solid #bababa;
+		margin-bottom: 2rem;
+		font-size: 1.6rem;
+		padding: 0.5rem 0;
+
+		&:focus {
+			transition: 0.5s;
+			border-bottom: 1px solid #ffaf2d;
+		}
+	}
+
+	&__button {
+
+	}
+}
+.button {
+	background-color: #ffaf2d;
+	color: #fff;
+	border: 0;
+	border-radius: 2.2rem;
+	padding: 1.3rem 2.5rem;
+
+	&:hover {
+		background-color: #ffa30e;
+		transition: 0.7s;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
