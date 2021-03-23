@@ -6,7 +6,52 @@
 	}
 
 	&-center {
-		background-color: transparent;
+		background-color: #e8e7e7;
+
+		&__wrap {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		&__supplier-portal {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex: 0 1 10%;
+			margin-left: 2rem;
+			
+		}
+
+		&__supplier-img {
+			width: 3.8rem;
+		}
+
+		&__supplier-text {
+			margin-left: 1rem;
+			font-size: 1.4rem;
+			color: #787878;
+			line-height: 1.7rem;
+		}
+
+	
+
+/*---------Переделать-----------------*/
+		// &__img {
+		// 	width: 4rem;
+		// 	margin-right: 0.5rem;
+		// }
+
+		// &__portal-postavschikov {
+		// 	display: flex;
+		// 	flex: 0 1 10%;
+		// 	align-items: center;
+		// 	margin-right: 1rem;
+		// 	p {
+		// 		font-size: 1.4rem;
+		// 	}
+		// }
+/*--------------------------------------------*/
 	}
 
 	&-bottom {

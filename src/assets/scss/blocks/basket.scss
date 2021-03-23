@@ -1,0 +1,52 @@
+.basket {
+	display: flex;
+	flex: 0 1 9%;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem 1.5rem;
+	white-space: nowrap; /* Запрещаем перенос строк */
+	cursor: pointer;
+	&:hover {
+		text-decoration: none;
+		transition: 0.6s;
+		background-color: #ffaf2d;
+		.basket__quantity, 
+		.basket__sum-title,
+		.basket__total-money {
+			color: #fff;
+		}
+		
+	}
+
+	&__goods-count {
+		position: relative;
+	}
+
+	&__quantity {
+		color: #ffaf2d;
+		font-size: 1.4rem;
+		font-weight: 500;
+		position: absolute;
+		top: -1.3rem;
+		left: 1.2rem;
+	}
+
+	&__icon {
+		width: 3rem;
+	}
+
+	&__sum {
+		margin-left: 1rem;
+	}
+
+	&__sum-title {
+		font-size: 1.4rem;
+		color: #787878;
+		line-height: 1rem;
+	}
+
+	&__total-money {
+		font-weight: 500;
+		color: #171717;
+	}
+}
