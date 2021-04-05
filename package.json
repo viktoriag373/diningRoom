@@ -24,6 +24,7 @@
         "gulp-strip-css-comments": "^2.0.0",
         "gulp-uglify": "^3.0.2",
         "panini": "^1.7.1",
+        "swiper": "^6.5.2",
         "webpack": "^5.25.1",
         "webpack-stream": "^6.1.2"
     },

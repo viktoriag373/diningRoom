@@ -1,0 +1,26 @@
+
+.vertical-line--brand {
+	width: 0.2rem;
+	height: 7rem;
+	background-color: #f6f5f5;
+}
+.brands {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #fff;
+
+	&__item-brand {
+		padding: 3rem 0;
+		margin: 0 auto;
+		color: #232323;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	&__img-logo {
+	}
+}

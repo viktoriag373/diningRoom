@@ -4,7 +4,7 @@
 	&__list {
 		display: flex;
 		justify-content: space-around;
-		flex-wrap: wrap;
+		// flex-wrap: wrap;
 	}
 
 	&__item {
@@ -25,6 +25,7 @@
 	}
 
 	&__item-tel {
+		position: relative;
 		&:hover{	
 			.modal-contact-us {	
 				display: flex;

@@ -1,10 +1,12 @@
-.header-search {
-	margin-right: 1rem;
-}
+// .header-search {
+// 	margin-right: 1rem;
+// }
 .search {
 	display: flex;
 	align-items: center;
-	flex: 0 1 56%;
+	// flex: 0 1 56%;
+	width: 100%;
+	margin: 0 0.5rem 0 2.5rem;
 
 }
 .search-categories {
@@ -75,7 +77,8 @@
 .search-query {
 	display: flex;
 	// align-items: center;
-	flex: 0 1 90%;
+	// flex: 0 1 90%;
+	width: 100%;
 	
 	&__input {
 		flex: 0 1 100%;

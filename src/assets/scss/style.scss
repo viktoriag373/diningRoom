@@ -12,12 +12,11 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     color: #121212;
+	height: 100%;
 
     &.no-scroll {
         overflow: hidden;
     }
-    
-
 }
 
 *,
@@ -34,6 +33,14 @@ a  {
     }
 }
 
+.page {
+
+}
+
+.main {
+
+}
+
 
 /* Blocks */
 
@@ -41,11 +48,12 @@ a  {
 @import "blocks/container";
 @import "blocks/form";
 @import "blocks/menu";
-@import "blocks/logo";
 @import "blocks/search";
 @import "blocks/basket";
-
-
-
-
-
+@import "blocks/catalog-menu";
+@import "blocks/our-products";
+@import "blocks/brands";
+@import "blocks/news";
+@import "blocks/recommendation";
+@import "blocks/information";
+@import "blocks/footer";

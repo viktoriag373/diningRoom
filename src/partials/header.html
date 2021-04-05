@@ -7,7 +7,10 @@
 	<div class="header-center">
 		<div class="container">
 			<div class="header-center__wrap">
-				{{>logo}}
+				<div class="header-logo">
+					<img src="/assets/images/logo.svg" class="header-logo__img"></img>
+					<p class="header-logo__title">Столовая.РУ</p>
+				</div>
 				{{>search}}
 				<div class="header-center__supplier-portal">
 					<img class="header-center__supplier-img" src="/assets/images/portalpostavschikov.png" alt="supplier">
@@ -18,11 +21,8 @@
 		</div>
 	</div>
 	<div class="header-bottom">
-		<div class="container" style="height: 100px;">
-
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
-			Qui, omnis sed nihil itaque commodi illo ut aperiam neque nobis nisi tempore, <br> 
-			dolor quis pariatur iure culpa delectus voluptatibus saepe nostrum?
+		<div class="container">
+			{{>catalog-menu}}
 		</div>
 	</div>
 </header>

@@ -1,0 +1,88 @@
+.information {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 18rem;
+	margin-top: 17rem;
+	&__wrap {
+		max-width: 85rem;
+		margin-right: 5rem;
+	}
+
+	&__solution {
+		margin-bottom: 3rem;
+	}
+
+	&__solution-title {
+		font-size: 4rem;
+		line-height: 4rem;
+		margin-bottom: 2rem;
+	}
+
+	&__solution-descroption {
+		font-size: 1.8rem;
+		line-height: 2.5rem;
+	}
+
+	&__offer {
+	}
+
+	&__offer-title {
+		font-size: 4rem;
+		font-weight: 300;
+		line-height: 4rem;
+		margin-bottom: 2rem;
+	}
+
+	&__offer-description {
+		font-size: 1.8rem;
+		line-height: 2.5rem;
+	}
+
+	&__about-us {
+	}
+
+	&__about-us-title {
+		font-size: 2.4rem;
+		font-weight: 500;
+	}
+
+	&__about-us-indicators {
+		color: #737373;
+		font-size: 1.8rem;
+	}
+
+	&__indicators {
+		margin-top: 3rem;
+		font-size: 1.8rem;
+		line-height: 2.5rem;
+		p {
+
+		}
+	}
+
+	&__ {
+	}
+}
+.information-logo {
+	margin-bottom: 4rem;
+	&__img {
+		width: 15rem;
+		margin-bottom: 3rem;
+	}
+
+	&__wrap {
+		
+	}
+
+	&__title {
+		color: #121212;
+		font-size: 4rem;
+		line-height: 4rem;
+	}
+
+	&__description-logo {
+		color: #737373;
+		line-height: 2rem;
+	}
+}

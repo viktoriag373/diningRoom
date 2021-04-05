@@ -11,14 +11,15 @@
 		&__wrap {
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
+			// justify-content: space-between;
+			width: 100%;
 		}
 
 		&__supplier-portal {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			flex: 0 1 10%;
+			// flex: 0 1 10%;
 			margin-left: 2rem;
 			
 		}
@@ -34,29 +35,29 @@
 			line-height: 1.7rem;
 		}
 
-	
+		.header-logo {
+			margin: 1rem 1rem 1rem 0;
+			display: flex;
+			align-items: center;
+			&__img {
+				width: 5rem;
+			}
+		
+			&__title {
+				font-size: 3.3rem;
+				margin-left: 0.8rem;
+			}
+		
+		}
 
-/*---------Переделать-----------------*/
-		// &__img {
-		// 	width: 4rem;
-		// 	margin-right: 0.5rem;
-		// }
-
-		// &__portal-postavschikov {
-		// 	display: flex;
-		// 	flex: 0 1 10%;
-		// 	align-items: center;
-		// 	margin-right: 1rem;
-		// 	p {
-		// 		font-size: 1.4rem;
-		// 	}
-		// }
-/*--------------------------------------------*/
 	}
 
 	&-bottom {
+		// padding: 1rem;
 		background-color: #fff;
-		box-shadow: 0px 15px 30px -7px rgba(0, 0, 0, 0.2);
+		box-shadow: 0px 10px 30px -7px rgba(0, 0, 0, 0.2);
+
+	
 	}
 
 }

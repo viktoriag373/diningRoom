@@ -152,6 +152,7 @@ function js(cb) {
 		// 	mode: "production",
 		// 	output: {
 		// 		filename: 'app.js',
+				
 		// 	},
 		// 	module: {
 		// 		rules: [{

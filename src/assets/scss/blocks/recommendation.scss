@@ -1,0 +1,111 @@
+.recommendation {
+
+	padding: 2rem 0;
+
+	&__title {
+		margin-bottom: 6.5rem;
+		text-align: center;
+	}
+
+	&__heading {
+		font-size: 4rem;
+		margin-bottom: 1.5rem;
+		line-height: 2.5rem;
+	}
+
+	&__description-section {
+		color: #787878;
+		max-width: 67rem;
+		margin: 0 auto;
+	}
+
+	&__title-firm {
+		text-transform: uppercase;
+		font-size: 2rem;
+		font-weight: 300;
+		margin-bottom: 1rem;
+		line-height: 2rem;
+
+		&--color-w {
+			color: #fff;
+		}
+	}
+
+	&__title-equipment {
+		font-size: 3rem;
+		line-height: 3.8rem;
+		margin-bottom: 2.5rem;
+		&--color-w {
+			color: #fff;
+		}
+	}
+
+	&__description {
+		color: #787878;
+		line-height: 2rem;
+	}
+
+	&__equipment {
+		display: flex; 
+		justify-content: space-between;
+	}
+
+
+/*---------------------Переделать-------------------------------------*/
+
+	&__description-equipment {
+		// max-width: 350px;
+		// margin: 0 auto;
+
+		&--rational {
+			margin: 0 auto;
+			max-width: 29rem;
+		}
+
+		&--abat {
+			max-width: 39rem;
+			margin: 0 auto;
+		}
+
+		&--hicold {
+			max-width: 38rem;
+		}
+	}
+
+	&__wrap {
+		flex: 0 1 56.3%;
+	}
+
+	&__equipment-wrap {
+
+		&--rational {
+			flex: 0 1 43%; 
+			background:#fff url("../images/rational.png") center no-repeat;
+			background-position-y: 20rem;
+			background-size: 100rem;
+			padding: 6.5rem 0 0 0; 
+			text-align: center;
+		}
+
+		&--abat {
+			padding: 12rem 0 12rem 10rem;
+			background: #232323 url(../images/abat.png) no-repeat;
+			background-size: 48rem;
+			margin-bottom: 1rem;
+			background-position-y: -1.5rem;
+			background-position-x: -25rem;
+		}
+
+		&--hicold {
+			padding: 9rem 0 7rem 5rem;
+			background: #fff url(../images/hicold.png) center no-repeat;
+			background-size: 67rem;
+			background-position-x: 32rem;
+			background-position-y: -16rem;
+		
+		}
+	}
+
+/*-------------------------------------------------------------------------*/
+
+}
