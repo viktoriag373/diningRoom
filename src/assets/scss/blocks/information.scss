@@ -3,28 +3,54 @@
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 18rem;
-	margin-top: 17rem;
+	margin-top: 15rem;
+	@media (max-width: 750px) {
+		flex-direction: column;
+		padding: 0 2.5rem;
+	}
 	&__wrap {
 		max-width: 85rem;
 		margin-right: 5rem;
+		@media (max-width: 750px) {
+			order: 2;
+			width: 100%;
+			margin-right: 0;
+		}
 	}
 
 	&__solution {
 		margin-bottom: 3rem;
+		@media (max-width: 750px) {
+		
+		}
 	}
 
 	&__solution-title {
 		font-size: 4rem;
 		line-height: 4rem;
 		margin-bottom: 2rem;
+		@media (max-width: 750px) {
+			font-size: 5rem;
+			line-height: 6rem;
+			margin-bottom: 7rem;
+		}
 	}
 
 	&__solution-descroption {
 		font-size: 1.8rem;
 		line-height: 2.5rem;
+		@media (max-width: 750px) {
+			font-size: 3rem;
+			line-height: 3.5rem;
+			color: #191919;
+			font-weight: 300;
+		}
 	}
 
 	&__offer {
+		@media (max-width: 750px) {
+			display: none;
+		}
 	}
 
 	&__offer-title {
@@ -40,22 +66,38 @@
 	}
 
 	&__about-us {
+		@media (max-width: 750px) {
+			order: 1;
+			width: 100%;
+			padding-left: 9rem;
+			margin-bottom: 14rem;
+		}
 	}
 
 	&__about-us-title {
 		font-size: 2.4rem;
-		font-weight: 500;
+		font-weight: 400;
+		@media (max-width: 750px) {
+			font-size: 4rem;
+		}
 	}
 
 	&__about-us-indicators {
 		color: #737373;
 		font-size: 1.8rem;
+		@media (max-width: 750px) {
+			font-size: 3rem;
+		}
 	}
 
 	&__indicators {
 		margin-top: 3rem;
 		font-size: 1.8rem;
 		line-height: 2.5rem;
+		@media (max-width: 750px) {
+			font-size: 3rem;
+			line-height: 3.5rem;
+		}
 		p {
 
 		}
@@ -66,9 +108,16 @@
 }
 .information-logo {
 	margin-bottom: 4rem;
+	@media (max-width: 750px) {
+		margin-bottom: 6.5rem;
+	}
 	&__img {
 		width: 15rem;
 		margin-bottom: 3rem;
+		@media (max-width: 750px) {
+			width: 25rem;
+			margin-bottom: 6rem;
+		}
 	}
 
 	&__wrap {
@@ -79,10 +128,18 @@
 		color: #121212;
 		font-size: 4rem;
 		line-height: 4rem;
+		@media (max-width: 750px) {
+			font-size: 5rem;
+			line-height: 5rem;
+		}
 	}
 
 	&__description-logo {
 		color: #737373;
 		line-height: 2rem;
+		@media (max-width: 750px) {
+			font-size: 2.5rem;
+			line-height: 3rem;
+		}
 	}
 }

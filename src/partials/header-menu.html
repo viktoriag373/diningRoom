@@ -1,4 +1,10 @@
 <nav class="header-menu menu" >	
+	<div class="menu__burger">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+
 	<ul class="menu__list">
 		<li class="menu__item"><a href="" class="menu__link">Компания</a></li>
 		<li class="menu__item"><a href="" class="menu__link">Портфолио</a></li>
@@ -11,11 +17,16 @@
 		<div class="vertical-line"></div>
 		<li class="menu__item"><a href="" class="menu__link">Сервис</a></li>
 		<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
-		<li class="menu__item"><a href="" class="menu__link"><img src="/assets/images/email.svg" alt="" class="menu__icon-mail"> info@stolovay.ru</a></li>
+		<li class="menu__item">
+			<a href="" class="menu__link">
+				<img src="/assets/images/email.svg" alt="" class="menu__icon-mail"> 
+				<span class="menu__link-email">info@stolovay.ru</span>
+			</a>
+		</li>
 		<li class="menu__item menu__item-tel">
 			<a href="" class="menu__link">
 				<img src="/assets/images/telephone.svg" alt="" class="menu__icon-tel"> 
-				8 495 790-72-05
+				<span class="menu__link-tel">8 495 790-72-05</span>
 			</a>
 			{{>form}}
 		</li>

@@ -3,6 +3,9 @@
 	width: 0.2rem;
 	height: 7rem;
 	background-color: #f6f5f5;
+	@media (max-width: 750px) {
+		display: none;
+	}
 }
 .brands {
 	margin-top: 5rem;
@@ -19,8 +22,23 @@
 		&:hover {
 			text-decoration: none;
 		}
+
+		@media (max-width: 750px) {
+			// display: block;
+			margin: 0 2.5rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 5rem 0;
+
+		}
 	}
 
-	&__img-logo {
+	@media (max-width: 750px) {
+		// display: block;
+		margin: 0 2.5rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
+
 }

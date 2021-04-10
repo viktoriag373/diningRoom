@@ -82,4 +82,8 @@
 			background-color: rgba(221, 221, 221, 0.507);
 		}
 	}
+
+	@media (max-width: 750px) {
+		display: none;
+	}
 }

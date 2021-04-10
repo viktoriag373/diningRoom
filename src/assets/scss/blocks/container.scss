@@ -1,23 +1,21 @@
 .container {
     max-width: 160rem;
     margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
-    @include breakpoint($mobile-bp) {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
+    // padding-left: 1rem;
+    // padding-right: 1rem;
+    @media (max-width: 750px) {
+		width: 100%;
+		// padding: 0 2rem;
+	}
 }
 
 .container-secondary {
 	max-width: 140rem;
     margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    
-    @include breakpoint($mobile-bp) {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
+    // padding-left: 1rem;
+    // padding-right: 1rem;
+    @media (max-width: 750px) {
+		width: 100%;
+		// padding: 0 2rem;
+	}
 }
