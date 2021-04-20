@@ -72,6 +72,10 @@
 			padding-left: 9rem;
 			margin-bottom: 14rem;
 		}
+
+		@media (max-width: 750px) {
+			padding-left: 0;
+		}
 	}
 
 	&__about-us-title {

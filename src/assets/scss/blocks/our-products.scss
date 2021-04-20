@@ -5,12 +5,15 @@
 		margin-top: 0;
 	}
 
+	@media (max-width: 350px) {
+		margin-bottom: 8rem;
+	}
 
 	&__info {
 		display: flex; 
 		justify-content: space-between; 
 		align-items: top;
-		@media (max-width: 750px) {
+		@media (max-width: 1104px) {
 			display: block;
 		}
 	}
@@ -20,12 +23,8 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		// padding-left: 3rem;
-		// padding-right: 2rem;
 		padding-top: 3rem;
-		// padding-bottom: 0.5rem;
-
-		@media (max-width: 750px) {
+		@media (max-width: 1104px) {
 			display: none;
 		}
 	}
@@ -33,9 +32,6 @@
 	&__heading {
 		font-size: 2.4rem;
 		color: #ffaf2d;
-		// margin-right: 1.5rem;
-		// background-color: #fff;
-		// width: 100%;
 		margin: 0 3.5rem 0 3rem;
 	}
 
@@ -48,13 +44,11 @@
 	}
 
 	&__item {
-		// background-color: #fff;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		border-bottom: 0.1rem solid #f4f2f2;
 		padding: 0rem 2rem 0rem 3rem;
-		// margin-bottom: 0.1rem;
 		width: 100%;
 		height: 100%;
 		line-height: 2rem;
@@ -76,11 +70,23 @@
 		padding: 19rem 6rem 5rem 3rem;
 		border: 2px solid #ffaf2d;
 		border-radius: 1px;
-		@media (max-width: 750px) {
+		@media (max-width: 1104px) {
 			display: block;
-			margin: 2.5rem;
+			// margin: 2.5rem;
 			padding-top: 8rem;
+			margin: 10px auto 0;
+			width: 80%;
 		}
+
+		@media (max-width: 750px) {
+			margin: 2.5rem;
+			width: auto;
+		}
+
+		@media (max-width: 460px) {
+			padding: 8rem 0 4rem 2rem;
+		}
+
 	}
 
 	&__giftbox {
@@ -105,6 +111,12 @@
 		@media (max-width: 750px) {
 			font-size: 5rem;
 		}
+
+		@media (max-width: 460px) {
+			font-size: 3.5rem;
+		}
+
+
 	}
 
 	&__catalog-sale {
@@ -114,48 +126,120 @@
 			font-weight: 300;
 			letter-spacing: 0.1rem;
 		}
+
+		@media (max-width: 460px) {
+			font-size: 2.5rem;
+		}
+
+		@media (max-width: 350px) {
+			font-size: 2rem;
+		}
 	}
 
 	&__icon {
 
 	}
 
-
-
 	&__portfolio {
 		background-color: #232323;
 		width: 56%;
 		margin: 0 1rem;
 		color: #fff;
-		padding: 5rem 7rem 0 6rem;
-		@media (max-width: 750px) {
+		padding: 5rem 5rem 0 5rem;
+		@media (max-width: 1205px) {
+			padding: 5rem 3rem 0 3rem;
+		}
+		@media (max-width: 1104px) {
 			display: block;
-			width: 100%;
+			width: 80%;
 			/*переделать*/
 			height: 50rem;
-			/**/
-			// padding-bottom: 12.5rem;
-			margin: 0;
+			/*---------*/
+			margin: 0 auto;
+		}
+
+		@media (max-width: 750px) {
+			width: 100%;
 		}
 	}
 
 	&__portfolio-wrap {
 		height: 100%;
 		background: url("../images/portfolio-bg.png") right top no-repeat;
+
+		@media (max-width: 1325px) {
+			background-position-y: 50px;
+			background-position: left;
+			background-position-x: 280px;
+		}
+
+		@media (max-width: 1104px) {
+			background-position: right;
+			// background-position-x: 0;
+		}
+
 		@media (max-width: 750px) {
 			height: 100%;
+		}
+
+		@media (max-width: 1205px) {
+			
+		}
+
+		// @media (max-width: 675px) {
+		// 	background-position-y: 50px;
+		// }
+
+		@media (max-width: 500px) {
+			background-image: none;
 		}
 	}
 
 	&__portfolio-title {
 		color: #737373;
 		margin-bottom: 5rem;
+		@media (max-width: 750px) {
+			margin-bottom: 6rem;
+		}
 	}
 
 	&__portfolio-customer {
 		font-size: 4rem;
 		line-height: 5rem;
 		max-width: 42rem;
+
+		@media (max-width: 1325px) {
+			max-width: 35rem;
+		}
+
+		@media (max-width: 1104px) {
+			max-width: 50rem;
+		}
+
+		@media (max-width: 875px) {
+			max-width: 39rem;
+		}
+
+
+		@media (max-width: 750px) {
+			font-size: 3.5rem;
+			line-height: 4rem;
+			// max-width: 40rem;
+		}
+		@media (max-width: 675px) {
+			font-size: 3rem;
+			line-height: 3.5rem;
+			max-width: 35rem;
+		}
+
+		@media (max-width: 615px) {
+			font-size: 2.6rem;
+		}
+
+		@media (max-width: 675px) {
+			max-width: 25rem;
+		}
+
 	}
 
 	&__portfolio-description {
@@ -169,7 +253,6 @@
 		font-size: 1.8rem;
 		border-radius: 2rem;
 		@media (max-width: 750px) {
-			// margin-bottom: 12rem;
 		}
 
 		&:hover {
@@ -179,8 +262,6 @@
 		}
 	}
 	
-
-
 }
 	
 

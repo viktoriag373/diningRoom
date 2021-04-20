@@ -15,6 +15,10 @@
 			background-color: #f1f1f1;
 			transition: 1s;
 		}
+
+		@media (max-width: 1421px) {
+			padding: 1rem;
+		}
 	}
 
 	&--adaptive {
@@ -40,15 +44,41 @@
 
 	&__img {
 		margin-bottom: 1rem;
+		@media (max-width: 1311px) {
+			width: 5rem;
+		}
+		@media (max-width: 1158px) {
+			font-size: 4rem;
+		}
 	}
 
 	&__title {
 		line-height: 2rem;
 		color: #343434;
 		font-weight: 500;
+
+		@media (max-width: 1594px) {
+			font-size: 1.4rem;
+		}
+
+		@media (max-width: 1445px) {
+			font-size: 1.3rem;
+		}
+
+		@media (max-width: 1311px) {
+			font-size: 1.2rem;
+		}
+
+		@media (max-width: 1177px) {
+			font-size: 1.15rem;
+		}
+
+		@media (max-width: 1139px) {
+			font-size: 1.1rem;
+		}
 	}
 
-	@media (max-width: 750px) {
+	@media (max-width: 1103px) {
 		display: none;
 
 		&--adaptive {
