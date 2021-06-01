@@ -78,11 +78,16 @@
 		}
 	}
 
-	@media (max-width: 1103px) {
+	@media (max-width: 1104px) {
 		display: none;
 
 		&--adaptive {
 			display: flex;
+			width: 80%;
+			margin: 0 auto;
+			@media (max-width: 750px) {
+				width: 100%;
+			}
 		}
 
 		&__item--adaptive {

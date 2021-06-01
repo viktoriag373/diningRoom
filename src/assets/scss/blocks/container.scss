@@ -1,9 +1,9 @@
 .container {
-    max-width: 160rem;
-    margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    @media (max-width: 1104px) {
+	max-width: 160rem;
+	margin: 0 auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	@media (max-width: 750px) {
 		width: 100%;
 		padding-left: 0rem;
 		padding-right: 0rem;
@@ -12,12 +12,24 @@
 
 .container-secondary {
 	max-width: 140rem;
-    margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    @media (max-width: 1104px) {
+	margin: 0 auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	@media (max-width: 750px) {
 		width: 100%;
 		padding-left: 0rem;
 		padding-right: 0rem;
+	}
+}
+
+.container-header {
+	max-width: 160rem;
+	margin: 0 auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	@media (max-width: 750px) {
+		width: 100%;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 }

@@ -11,6 +11,7 @@
 	z-index: 100;
 	display: none;
 
+
 	&__close {
 		position: absolute;
 		right: 1rem;
@@ -142,6 +143,16 @@
 	&__button {
 
 	}
+
+	&--visible {
+		display: flex;
+	}
+	
+	&--hidden {
+		display: none;
+	}
+
+	
 }
 .button {
 	background-color: #ffaf2d;

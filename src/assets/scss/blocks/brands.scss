@@ -3,7 +3,7 @@
 	width: 0.2rem;
 	height: 7rem;
 	background-color: #f6f5f5;
-	@media (max-width: 750px) {
+	@media (max-width: 1104px) {
 		display: none;
 	}
 }
@@ -13,7 +13,21 @@
 	justify-content: space-around;
 	align-items: center;
 	background: #fff;
+	@media (max-width: 1104px) {
+		display: grid;
+		margin: 1rem auto;
+		width: 80%;
+		grid-template-columns: 1fr 1fr;
+	}
 
+	@media (max-width: 750px) {
+		width: auto;
+		margin: 2.5rem;
+	}
+
+	// @media (max-width: 750px) {
+	// 	grid-template-columns: 1fr;
+	// }
 	&__item-brand {
 		padding: 3rem 0;
 		margin: 0 auto;
@@ -22,6 +36,8 @@
 		&:hover {
 			text-decoration: none;
 		}
+
+		
 
 		@media (max-width: 750px) {
 			// display: block;
@@ -34,15 +50,6 @@
 		}
 	}
 
-	@media (max-width: 750px) {
-		// display: block;
-		margin: 0 2.5rem;
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
-
-	@media (max-width: 750px) {
-		grid-template-columns: 1fr;
-	}
+	
 
 }

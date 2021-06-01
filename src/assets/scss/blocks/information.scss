@@ -2,8 +2,14 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 18rem;
+	margin-bottom: 17rem;
 	margin-top: 15rem;
+
+	@media (max-width: 1104px) {
+		margin-top: 10rem;
+		margin-bottom: 10rem;
+	}
+
 	@media (max-width: 750px) {
 		flex-direction: column;
 		padding: 0 2.5rem;

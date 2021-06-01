@@ -95,7 +95,7 @@
 	&__equipment {
 		display: flex; 
 		justify-content: space-between;
-		@media (max-width: 750px) {
+		@media (max-width: 1104px) {
 			display: block;
 		}
 	}
@@ -109,8 +109,8 @@
 		&--rational {
 			margin: 0 auto;
 			max-width: 29rem;
-			@media (max-width: 750px) {
-				text-align-last: left;
+			@media (max-width: 1104px) {
+				text-align: left;
 				margin: 0;
 				max-width: 35rem;
 				width: 100%;
@@ -156,7 +156,7 @@
 			background-size: 100rem;
 			padding: 6.5rem 0 0 0; 
 			text-align: center;
-			@media (max-width: 750px) {
+			@media (max-width: 1104px) {
 				padding-left: 7rem;
 				margin-bottom: 1rem;
 				padding-bottom: 8rem;

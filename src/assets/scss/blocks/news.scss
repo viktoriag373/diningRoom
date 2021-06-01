@@ -1,8 +1,15 @@
 .news {
-	margin-bottom: 17rem;
+	margin-bottom: 15rem;
+	padding-bottom: 2rem;
+	@media (max-width: 1104px) {
+		margin-bottom: 10rem;
+	}
 	&__title {
 		font-size: 4rem;
 		margin-bottom: 4.5rem;
+		@media (max-width: 890px) {
+			text-align: center;
+		}
 	}
 
 	&__wrap {

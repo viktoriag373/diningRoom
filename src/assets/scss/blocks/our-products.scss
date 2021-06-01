@@ -1,6 +1,11 @@
 .our-products {
 	margin-top: 2rem;
 	margin-bottom: 17rem;
+
+	@media (max-width: 1104px) {
+		margin-bottom: 10rem;
+	}
+
 	@media (max-width: 750px) {
 		margin-top: 0;
 	}
