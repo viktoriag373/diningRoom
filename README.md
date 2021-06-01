@@ -1,3 +1,3 @@
-# biningRoom
+# diningRoom
 
-bining room - столовая
+dining room - столовая
